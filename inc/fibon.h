@@ -3,5 +3,5 @@
 
 #include <math.h>
 int fibon(int num);
-
+int sqr(int num);
 #endif
