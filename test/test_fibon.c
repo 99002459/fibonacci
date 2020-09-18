@@ -7,10 +7,6 @@
 #include <fibon.h>
 #define PROJECT_NAME    "fibonacci"
 
-	void setUp()
-	{	}
-	void tearDown()
-	{	}
 void test_fibon(void);
 	
 
