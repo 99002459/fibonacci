@@ -1,10 +1,9 @@
 #include "fibon.h"
 
 
-  int sqr(int num)
+  int sqr(int s)
     {
-       int s = num;
-       return (s == num);
+             return (s*s);
      }
    int fibon(int num)
       {
