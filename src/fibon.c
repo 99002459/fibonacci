@@ -1,4 +1,5 @@
 #include "fibon.h"
+#include<math.h>
 
   int sqr(int num)
     {
