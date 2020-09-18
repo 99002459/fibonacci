@@ -1,6 +1,11 @@
 #include "fibon.h"
 
-
+int sqr(int num)
+    {
+	     int s;
+	     s=sqrt(num);
+             return (s*s==num);
+     }
   
    int fibon(int num)
       {
