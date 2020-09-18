@@ -3,8 +3,8 @@
 
   int sqr(int num)
     {
-       int s = sqrt(num);
-       return (s*s == num);
+       int s = num;
+       return (s == num);
      }
    int fibon(int num)
       {
