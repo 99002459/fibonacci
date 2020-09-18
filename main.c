@@ -3,12 +3,7 @@
 
 #include "fibon.h"
 
-int sqr(int num)
-    {
-	     int s;
-	     s=sqrt(num);
-             return (s*s==num);
-     }
+
 	int main()
 	{
     	printf("Hello world!\n");
