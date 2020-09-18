@@ -5,6 +5,7 @@
 
 int sqr(int num)
     {
+	     int s;
 	     s=sqrt(num);
              return (s*s==num);
      }
