@@ -10,8 +10,8 @@
 	{	}
 void test_fibon(void)
 	{
-  		CU_ASSERT_EQUAL(1== fibon(8));
-  		CU_ASSERT_EQUAL(0== fibon(10));
+  		CU_ASSERT_EQUAL(1==fibon(8));
+  		CU_ASSERT_EQUAL(0==fibon(10));
 	}
 	
 
