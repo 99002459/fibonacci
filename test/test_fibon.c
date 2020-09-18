@@ -1,8 +1,11 @@
 
 
-#include "fibon.h"
+
 #include <CUnit/Basic.h>
 #include <CUnit/CUnit.h>
+
+#include <fibon.h>
+#define PROJECT_NAME    "fibonacci"
 
 	void setUp()
 	{	}
