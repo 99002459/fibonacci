@@ -11,11 +11,7 @@
 	{	}
 	void tearDown()
 	{	}
-void test_fibon(void)
-	{
-  		CU_ASSERT(1==fibon(8));
-  		CU_ASSERT(0==fibon(10));
-	}
+void test_fibon(void);
 	
 
 	int main() {
@@ -26,7 +22,7 @@ void test_fibon(void)
   CU_pSuite suite = CU_add_suite(PROJECT_NAME, 0, 0);
 /* Note: Do not edit END */
   
- 
+  CU_add_test(suite, "fibon", test_fibon);
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -40,3 +36,9 @@ void test_fibon(void)
 /* Note: Do not edit END */
   return 0;
 }
+void test_fibon(void)
+	{
+  		CU_ASSERT(1==fibon(8));
+  		CU_ASSERT(0==fibon(10));
+	}
+	
